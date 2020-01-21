@@ -1,0 +1,24 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.todo-item__is-done {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+  height: 1rem;
+  width: 1rem;
+}
+
+.todo-item__is-done img,
+.todo-item__remove img {
+  width: 100%;
+  height: 100%;
+}
+
+.todo-item__remove {
+  width: 2em;
+  height: 2em;
+}
